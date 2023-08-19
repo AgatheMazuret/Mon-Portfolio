@@ -3,25 +3,24 @@ import fond from "../images/Banderole-damier.webp";
 import image from "../images/flammes.jpg";
 
 export default function Description() {
-  
   const fontStylesTitle = {
     fontFamily: "Cabin, sans-serif",
-    fontSize: "4rem",             // Taille de police 4rem (équivalent à 4 * taille de la police de base)
-    fontWeight: "bold",           // Police en gras
-    letterSpacing: "-0.05em",      // Suivi du texte serré
+    fontSize: "4rem", // Taille de police 4rem (équivalent à 4 * taille de la police de base)
+    fontWeight: "bold", // Police en gras
+    letterSpacing: "-0.05em", // Suivi du texte serré
     backgroundColor: "#00FF00" /* Fluorescent green color */,
     padding: "0.50rem" /* Add some padding to the highlight */,
     borderRadius: "0.50rem" /* Round corners */,
   };
   const fontStyles = {
-      fontFamily: "Cabin, sans-serif",
-      fontSize: "1rem",             // Taille de police 4rem (équivalent à 4 * taille de la police de base)
-      fontWeight: "bold",           // Police en gras
-      letterSpacing: "-0.03em",      // Suivi du texte serré
-      backgroundColor: "#00FF00" /* Fluorescent green color */,
+    fontFamily: "Cabin, sans-serif",
+    fontSize: "1rem", // Taille de police 4rem (équivalent à 4 * taille de la police de base)
+    fontWeight: "bold", // Police en gras
+    letterSpacing: "-0.03em", // Suivi du texte serré
+    backgroundColor: "#00FF00" /* Fluorescent green color */,
     padding: "0.50rem" /* Add some padding to the highlight */,
     borderRadius: "0.50rem" /* Round corners */,
-    };
+  };
 
   return (
     <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
@@ -50,16 +49,23 @@ export default function Description() {
           </h2>
           <p className="mt-10 text-lg leading-8 text-black" style={fontStyles}>
             <span>
-              <p>Après avoir exploré le monde de la mode à travers mes études, j'ai
-              rapidement réalisé que ma véritable passion résidait ailleurs.</p>
+              <p>
+                Après avoir exploré le monde de la mode à travers mes études,
+                j'ai rapidement réalisé que ma véritable passion résidait
+                ailleurs.
+              </p>
               J'ai choisi de me reconvertir dans le développement web, une
               décision guidée par mon désir profond de créer, d'innover et de
-              contribuer à l'univers numérique en constante évolution.<p>  Chaque
-              ligne de code que je rédige est une toile sur laquelle je peins
-              des solutions concrètes, faisant ainsi de ma passion mon métier.
-              Cette reconversion m'a permis de fusionner ma créativité avec ma
-              fascination pour la technologie.</p> Cependant je
-              suis toujours aussi passionnée par la haute couture et la mode.
+              contribuer à l'univers numérique en constante évolution.
+              <p>
+                {" "}
+                Chaque ligne de code que je rédige est une toile sur laquelle je
+                peins des solutions concrètes, faisant ainsi de ma passion mon
+                métier. Cette reconversion m'a permis de fusionner ma créativité
+                avec ma fascination pour la technologie.
+              </p>{" "}
+              Cependant je suis toujours aussi passionnée par la haute couture
+              et la mode.
             </span>
           </p>
         </div>
