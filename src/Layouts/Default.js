@@ -1,15 +1,13 @@
 import { Outlet } from "react-router-dom";
 import Header from "../components/Header/Header.js";
-import Footer from "../components/Footer/Footer.js";
 
-function Blank() {
+function Default() {
   return (
     <>
       <Header />
       <Outlet />
-      <Footer />
     </>
   );
 }
 
-export default Blank;
+export default Default;

@@ -1,14 +1,15 @@
 import React from "react";
-import "../index";
-import "../Layouts/Default"
-
+import Description from "../components/Description/Description"
+import Projects from "../components/Projects/Projects"
 
 const Home = () => {
-    return (
-      <>
-       
-      </>
-    );
-  };
-  
-  export default Home;
+  return (
+    <>
+    
+      <Description />
+      <Projects />
+    </>
+  );
+};
+
+export default Home;

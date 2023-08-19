@@ -1,8 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
-import About from "../pages/About";
+import Description from "../components/Description/Description"
+import Projects from "../components/Projects/Projects"
 import Default from "../Layouts/Default"
-import Blank from "../Layouts/Blank";
+
 
 const Router = () => {
   return (
@@ -10,8 +11,8 @@ const Router = () => {
       <Routes>
         <Route element={<Default />}>
           <Route path="/" element={<Home />} />
-          <Route path="/" element={<About />} />
-          <Route element={<Blank />}></Route>
+          <Route path="/" element={<Description />} />
+          <Route path="/" element={<Projects />} />
         </Route>
       </Routes>
     </BrowserRouter>
