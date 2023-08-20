@@ -2,7 +2,7 @@ import React from "react";
 import { Disclosure } from "@headlessui/react";
 
 const navigation = [
-  { name: "Accueil", href: "#", current: true },
+  { name: "Accueil", href: "#", current: false },
   { name: "Projets", href: "#", current: false },
   { name: "Contact", href: "#", current: false },
 ];
@@ -11,13 +11,13 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function navbar() {
+export default function Navbar() {
   return (
     <Disclosure as="nav" className="bg-black">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-            <div className="flex h-16 items-center justify-between">
+            <div className="flex items-center justify-between h-16">
               <div className="flex items-center">
                 <div className="flex-shrink-0">
                   <div className="flex items-center justify-center h-10 w-10 rounded-full bg-black">
@@ -28,7 +28,7 @@ export default function navbar() {
                     />
                   </div>
                 </div>
-                <div className="hidden sm:ml-6 sm:block">
+                <div className=" sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
                       <a
@@ -37,7 +37,7 @@ export default function navbar() {
                         className={classNames(
                           item.current
                             ? "bg-gray-900 text-white"
-                            : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                            : "text-gray-300 hover:bg-green-fluorescent hover:text-black",
                           "rounded-md px-3 py-2 text-sm font-medium"
                         )}
                         aria-current={item.current ? "page" : undefined}
@@ -48,7 +48,6 @@ export default function navbar() {
                   </div>
                 </div>
               </div>
-              
             </div>
           </div>
         </>
@@ -56,6 +55,3 @@ export default function navbar() {
     </Disclosure>
   );
 }
-
-
-

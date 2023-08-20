@@ -47,6 +47,7 @@ export default function Description() {
           <h2 className="text-4xl font-bold tracking-tight text-black sm:text-6xl">
             <span style={fontStylesTitle}>Agathe Mazuret</span>
           </h2>
+
           <p className="mt-10 text-lg leading-8 text-black" style={fontStyles}>
             <span>
               <p>
