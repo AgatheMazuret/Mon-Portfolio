@@ -44,7 +44,7 @@ export default function Projects() {
             className="text-center md:text-left block"
             style={fontStylesDescr}
           >
-            Création d'une application web de location immobilière avec React JS.
+            Création d'une application web de location immobilière avec React JS. https://kasa-rcsnn48hc-aagathemazuret-gmailcom.vercel.app
           </span>
         </div>
       </div>
