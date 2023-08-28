@@ -29,8 +29,7 @@ export default function Description() {
             J'ai choisi de me reconvertir dans le développement web, une décision guidée par mon désir profond de créer, d'innover et de contribuer à l'univers numérique en constante évolution.
             {" "}
             Chaque ligne de code que je rédige est une toile sur laquelle je peins des solutions concrètes, faisant ainsi de ma passion mon métier. Cette reconversion m'a permis de fusionner ma créativité avec ma fascination pour la technologie.
-            {" "}
-            Cependant, je suis toujours aussi passionnée par la haute couture et la mode.
+            
           </p>
         </div>
       </div>

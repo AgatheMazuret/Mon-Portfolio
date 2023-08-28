@@ -70,7 +70,9 @@ export default function Projects() {
           {projectDescription}
           <br />
           <a href={projectLink} target="_blank" rel="noopener noreferrer">
+          <button className="bg-green-500 hover:bg-green-700 text-black font-bold py-2 px-4 rounded mt-4">
             Lien vers le projet
+          </button>
           </a>
         </span>
       </div>
@@ -109,35 +111,35 @@ export default function Projects() {
       {renderProject(
         Project5,
         "Projet Mon vieux grimoire",
-        "Développement du back-end d'un site de notation de livres. Mise en place d'un système de notation de livre, de création, modification et suppression de fiche sur des livres. Création d'un système d'authentification et de création de compte sécurisé.",
+        "Développement du back-end d'un site de notation de livres. Mise en place d'un système de notation de livre, de création, modification et suppression de fiche sur des livres. Création d'un système d'authentification et de création de compte sécurisé et utilisation de SCSS. L'entièreté du projet a été un défi pour moi, ce sont les cours de la plateforme Openclassrooms qui m'ont le plus aider avec les conseils de mon mentor. J'ai beaucoup aimé utiliser le SCSS.",
         "https://github.com/AgatheMazuret/Book-Notation"
       )}
       <img src={Bandeau} alt="Project Separator" className="h-15" />
       {renderProject(
         Project4,
-        "Projet Sophie Bluel",
-        "Création d'une page web dynamique avec JavaScript pour une designer.",
+        "Projet Kasa",
+        "Création d'une application web de location immobilière avec React.Ma plus grosse difficulté pour ce projet ont été les props et l'apprentissage de react. En parcourant internet et les cours j'ai pu comprendre les props et react.",
         "https://github.com/AgatheMazuret/SophieBluel"
       )}
       <img src={Bandeau} alt="Project Separator" className="h-15" />
       {renderProject(
         Project3,
-        "Projet Kasa",
-        "Création d'une application web de location immobilière avec React JS.",
+        "Projet Nina Carducci",
+        "Débuggage et optimisation du site de la photographe Nina Carducci. Le plus difficimle pour moi a été de débugguer le carrousel, j'ai réussi grâce à une vidéo youtube. ",
         "https://kasa-rcsnn48hc-aagathemazuret-gmailcom.vercel.app"
       )}
       <img src={Bandeau} alt="Project Separator" className="h-15" />
       {renderProject(
         Project2,
-        "Projet Nina Carducci",
-        "Création d'une application web de location immobilière avec React JS.",
+        "Projet Sophie Bluel",
+        "Création d'une page web dynamique avec JavaScript. Ma plus grosse difficulté a été de manipuler le DOM mais grâce aux cours et à des vidéos youtube j'ai pu venir à bout du projet. ",
         "https://agathemazuret.github.io/NinaCarducci/"
       )}
       <img src={Bandeau} alt="Project Separator" className="h-15" />
       {renderProject(
         Project1,
         "Projet Booki",
-        "Création d'une application web de location immobilière avec React JS.",
+        "Création d'une page d'accueil d'une agence de voyage avec HTML & CSS. Ce qui a été le plus difficile dans ce 1er projet c'est qu'il fallait qu'il soit responsive. J'ai pu résoudre ces lacunes avec les cours fournis par la plateforme Openclassrooms, des vidéos youtubes et mdn Web Doc. ",
         "https://agathemazuret.github.io/Booki/"
       )}
       <img src={Bandeau} alt="Project Separator" className="h-15" />
