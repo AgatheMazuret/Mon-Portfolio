@@ -29,7 +29,7 @@ const fontStyles = {
 
 const fontStylesDescr = {
   fontFamily: "Cabin, sans-serif",
-  fontSize: "1rem",
+  fontSize: "1.5rem",
   fontWeight: "normal",
   letterSpacing: "-0.05em",
   color: "black",
@@ -82,7 +82,7 @@ export default function Projects() {
   return (
     <div className="flex flex-col" >
       <div id="competences"
-        className="text-center  font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-8xl py-20"
+        className="text-center  font-bold tracking-tight sm:text-4xl md:text-6xl lg:text-8xl py-20"
         style={fontStylesTitre}
       >
         Mes compétences
@@ -111,35 +111,35 @@ export default function Projects() {
       {renderProject(
         Project5,
         "Projet Mon vieux grimoire",
-        "Développement du back-end d'un site de notation de livres. Mise en place d'un système de notation de livre, de création, modification et suppression de fiche sur des livres. Création d'un système d'authentification et de création de compte sécurisé et utilisation de SCSS. L'entièreté du projet a été un défi pour moi, ce sont les cours de la plateforme Openclassrooms qui m'ont le plus aider avec les conseils de mon mentor. J'ai beaucoup aimé utiliser le SCSS.",
+        "Développement du back-end d'un site de notation de livres. Mise en place d'un système de notation de livre, de création, modification et suppression de fiche sur des livres. Création d'un système d'authentification et de création de compte sécurisé et utilisation de SCSS. L'entièreté du projet a été un défi pour moi, ce sont les cours de la plateforme Openclassrooms qui m'ont le plus aider avec les conseils de mon mentor. J'ai beaucoup aimé utiliser le SCSS.(Soutenance Validée le 25 août 2023 )",
         "https://github.com/AgatheMazuret/Book-Notation"
       )}
       <img src={Bandeau} alt="Project Separator" className="h-15" />
       {renderProject(
         Project4,
         "Projet Kasa",
-        "Création d'une application web de location immobilière avec React.Ma plus grosse difficulté pour ce projet ont été les props et l'apprentissage de react. En parcourant internet et les cours j'ai pu comprendre les props et react.",
-        "https://github.com/AgatheMazuret/SophieBluel"
+        "Création d'une application web de location immobilière avec React. Ma plus grosse difficulté pour ce projet ont été les props et l'apprentissage de react. En parcourant internet et les cours j'ai pu comprendre les props et react. (Soutenance Validée le 2 août 2023 )",
+        "https://kasa-rcsnn48hc-aagathemazuret-gmailcom.vercel.app"
       )}
       <img src={Bandeau} alt="Project Separator" className="h-15" />
       {renderProject(
         Project3,
         "Projet Nina Carducci",
-        "Débuggage et optimisation du site de la photographe Nina Carducci. Le plus difficimle pour moi a été de débugguer le carrousel, j'ai réussi grâce à une vidéo youtube. ",
-        "https://kasa-rcsnn48hc-aagathemazuret-gmailcom.vercel.app"
+        "Débuggage et optimisation du site de la photographe Nina Carducci. Le plus difficile pour moi a été de débugguer le carrousel, j'ai réussi grâce à une vidéo youtube. (Soutenance Validée le 19 juin 2023 ) ",
+        "https://agathemazuret.github.io/NinaCarducci/"
       )}
       <img src={Bandeau} alt="Project Separator" className="h-15" />
       {renderProject(
         Project2,
         "Projet Sophie Bluel",
-        "Création d'une page web dynamique avec JavaScript. Ma plus grosse difficulté a été de manipuler le DOM mais grâce aux cours et à des vidéos youtube j'ai pu venir à bout du projet. ",
-        "https://agathemazuret.github.io/NinaCarducci/"
+        "Création d'une page web dynamique avec JavaScript. Ma plus grosse difficulté a été de manipuler le DOM mais grâce aux cours et à des vidéos youtube j'ai pu venir à bout du projet. (Soutenance Validée le 19 mai 2023 )",
+        "https://github.com/AgatheMazuret/SophieBluel"
       )}
       <img src={Bandeau} alt="Project Separator" className="h-15" />
       {renderProject(
         Project1,
-        "Projet Booki",
-        "Création d'une page d'accueil d'une agence de voyage avec HTML & CSS. Ce qui a été le plus difficile dans ce 1er projet c'est qu'il fallait qu'il soit responsive. J'ai pu résoudre ces lacunes avec les cours fournis par la plateforme Openclassrooms, des vidéos youtubes et mdn Web Doc. ",
+        "Projet Booki ",
+        "Création d'une page d'accueil d'une agence de voyage avec HTML & CSS. Ce qui a été le plus difficile dans ce 1er projet c'est qu'il fallait qu'il soit responsive. J'ai pu résoudre ces lacunes avec les cours fournis par la plateforme Openclassrooms, des vidéos youtubes et mdn Web Doc. (Soutenance Validée le 15 février 2023 )",
         "https://agathemazuret.github.io/Booki/"
       )}
       <img src={Bandeau} alt="Project Separator" className="h-15" />

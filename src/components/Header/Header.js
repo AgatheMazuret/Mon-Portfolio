@@ -23,7 +23,7 @@ export default function Navbar() {
                 <div className="flex-shrink-0">
                   <div className="flex items-center justify-center h-10 w-10 rounded-full bg-black">
                     <img
-                      className="h-8 w-8 rounded-full"
+                      className="h-8 w-8 rounded-full "
                       src="https://downloadwap.com/thumbs2/wallpapers/p2ls/2019/abstract/45/f435d39a13506800.jpg"
                       alt="Profile"
                     />
