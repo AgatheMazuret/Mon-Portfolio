@@ -35,9 +35,7 @@ const fontStylesDescr = {
   color: "black",
 };
 
-const containerStyles = {
-  backgroundColor: "#f4fefe",
-};
+
 
 export default function Projects() {
   const renderSkill = (logo, name) => (
@@ -80,7 +78,7 @@ export default function Projects() {
   );
 
   return (
-    <div className="flex flex-col" style={containerStyles}>
+    <div className="flex flex-col" >
       <div id="competences"
         className="text-center text-8xl font-bold tracking-tight sm:text-6xl py-20"
         style={fontStylesTitre}
@@ -95,6 +93,13 @@ export default function Projects() {
         {renderSkill(logoMongoDb, "MongoDB")}
         {renderSkill(logoJavaScript, "JavaScript")}
       </div>
+      <div className="text-center mt-4">
+  <a href="https://miro.com/app/board/uXjVMv_eRkw=/" target="_blank" rel="noopener noreferrer">
+    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      Ma carte mentale
+    </button>
+  </a>
+</div>
       <div id="projets"
         className="text-center text-8xl font-bold tracking-tight sm:text-6xl py-20"
         style={fontStylesTitre}
