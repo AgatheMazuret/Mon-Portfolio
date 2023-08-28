@@ -28,9 +28,9 @@ export default function Navbar() {
                       alt="Profile"
                     />
                   </div>
-                </div>
-                <div className=" sm:ml-6 sm:block">
-                  <div className="flex space-x-4">
+                  </div>
+                <div className="sm:ml-6 sm:block">
+                  <div className="flex "> 
                     {navigation.map((item) => (
                       <a
                         key={item.name}

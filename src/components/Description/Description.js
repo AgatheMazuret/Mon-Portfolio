@@ -18,9 +18,9 @@ export default function Description() {
   return (
     <div className="bg-black px-6 py-24 sm:py-32 lg:px-8">
       <div className="mx-10 max-w-6xl text-center lg:flex lg:items-center lg:justify-center">
-        <img src={imageProfile} alt="Profile" style={imageStyles} />
+        <img src={imageProfile} alt="Profile" style={{ ...imageStyles, marginLeft: '10' }} />
         <div className="mt-4 lg:mt-0">
-          <h2 className="text-4xl font-bold tracking-tight sm:text-6xl" style={fontStylesTitle}>
+          <h2 className="text-4xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl" style={fontStylesTitle}>
             Agathe Mazuret
           </h2>
           <p className="mt-6 text-lg leading-8 text-white">

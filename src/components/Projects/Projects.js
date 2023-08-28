@@ -82,7 +82,7 @@ export default function Projects() {
   return (
     <div className="flex flex-col" >
       <div id="competences"
-        className="text-center text-8xl font-bold tracking-tight sm:text-6xl py-20"
+        className="text-center  font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-8xl py-20"
         style={fontStylesTitre}
       >
         Mes compétences
@@ -103,7 +103,7 @@ export default function Projects() {
   </a>
 </div>
       <div id="projets"
-        className="text-center text-8xl font-bold tracking-tight sm:text-6xl py-20"
+        className="text-center font-bold tracking-tight sm:text-4xl md:text-6xl lg:text-8xl py-20"
         style={fontStylesTitre}
       >
         Mes projets
