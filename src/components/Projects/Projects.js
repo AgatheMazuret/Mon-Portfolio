@@ -6,16 +6,12 @@ import Bandeau from "../images/Bandeau.png";
 
 export default function Projects() {
   const fontStylesTitle = {
-    fontFamily: "Cabin, sans-serif",
-    fontSize: "6rem",
-    fontWeight: "bold",
-    letterSpacing: "-0.05em",
     color: "#00FF00",
   };
   const fontStyles = {
     fontFamily: "Cabin, sans-serif",
+    fontWeight: "bold",
     fontSize: "2rem",
-    fontWeight: "normal",
     letterSpacing: "-0.05em",
     color: "#00FF00",
   };
@@ -29,15 +25,15 @@ export default function Projects() {
 
   return (
     <div className="flex flex-col">
-      <div className="text-center" style={fontStylesTitle}>
+      <div className="text-center text-4xl font-bold tracking-tight sm:text-6xl py-20" style={fontStylesTitle}>
         Mes projets
       </div>
-      <div className="flex flex-col md:flex-row mt-20 mb-10">
+      <div className="flex flex-col md:flex-row mt-15 mb-10">
         <div className="md:w-1/3 lg:w-2/4 ml-4 md:ml-20">
           <img src={Project1} alt="Project 1" className="w-full rounded-md" />
         </div>
         <div className="md:w-2/3 lg:w-1/4 ml-4 md:ml-8 mt-4 md:mt-0">
-          <p className="text-center md:text-left" style={fontStyles}>
+          <p className="text-center md:text-left " style={fontStyles}>
             Projet Kasa
           </p>
           <span
@@ -54,7 +50,7 @@ export default function Projects() {
           <img src={Project2} alt="Project 2" className="w-full rounded-md" />
         </div>
         <div className="md:w-2/3 lg:w-3/4 ml-4 md:ml-8 mt-4 md:mt-0">
-          <p className="text-center md:text-left" style={fontStyles}>
+          <p className="text-center md:text-left " style={fontStyles}>
             Projet Sophie Bluel
           </p>
           <span
@@ -72,7 +68,7 @@ export default function Projects() {
           <img src={Project3} alt="Project 3" className="w-full rounded-md" />
         </div>
         <div className="md:w-2/3 lg:w-3/4 ml-4 md:ml-8 mt-4 md:mt-0">
-          <p className="text-center md:text-left" style={fontStyles}>
+          <p className="text-center md:text-left " style={fontStyles}>
             Projet Mon vieux grimoire
           </p>
           <span
