@@ -36,8 +36,8 @@ const fontStylesDescr = {
 };
 
 const containerStyles = {
-  backgroundColor: "#f4fefe", 
-}
+  backgroundColor: "#f4fefe",
+};
 
 export default function Projects() {
   const renderSkill = (logo, name) => (
@@ -47,16 +47,28 @@ export default function Projects() {
     </div>
   );
 
-  const renderProject = (projectImage, projectName, projectDescription, projectLink) => (
+  const renderProject = (
+    projectImage,
+    projectName,
+    projectDescription,
+    projectLink
+  ) => (
     <div className="flex flex-col md:flex-row  mt-10 mb-10">
       <div className="md:w-1/3 lg:w-3/4 ml-4 md:ml-20">
-        <img src={projectImage} alt={projectName} className="w-full rounded-md" />
+        <img
+          src={projectImage}
+          alt={projectName}
+          className="w-full rounded-md"
+        />
       </div>
       <div className="md:w-2/3 lg:w-3/4 ml-4 md:ml-8 mt-4 md:mt-0">
         <p className="text-center md:text-left " style={fontStyles}>
           {projectName}
         </p>
-        <span className="text-center md:text-left block" style={fontStylesDescr}>
+        <span
+          className="text-center md:text-left block"
+          style={fontStylesDescr}
+        >
           {projectDescription}
           <br />
           <a href={projectLink} target="_blank" rel="noopener noreferrer">
@@ -69,7 +81,10 @@ export default function Projects() {
 
   return (
     <div className="flex flex-col" style={containerStyles}>
-      <div className="text-center text-8xl font-bold tracking-tight sm:text-6xl py-20" style={fontStylesTitre}>
+      <div id="competences"
+        className="text-center text-8xl font-bold tracking-tight sm:text-6xl py-20"
+        style={fontStylesTitre}
+      >
         Mes compétences
       </div>
       <div className="flex flex-wrap justify-center items-center mb-10">
@@ -80,7 +95,10 @@ export default function Projects() {
         {renderSkill(logoMongoDb, "MongoDB")}
         {renderSkill(logoJavaScript, "JavaScript")}
       </div>
-      <div className="text-center text-8xl font-bold tracking-tight sm:text-6xl py-20" style={fontStylesTitre}>
+      <div id="projets"
+        className="text-center text-8xl font-bold tracking-tight sm:text-6xl py-20"
+        style={fontStylesTitre}
+      >
         Mes projets
       </div>
       {renderProject(

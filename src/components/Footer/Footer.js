@@ -42,7 +42,7 @@ const navigation = [
 export default function Example() {
   return (
     <footer className="bg-white">
-      <div className="mx-20 max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8 h-55">
+      <div id="contact" className="mx-20 max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8 h-55">
         <div className="flex justify-center space-x-6 md:order-2">
           {navigation.map((item) => (
             <a
