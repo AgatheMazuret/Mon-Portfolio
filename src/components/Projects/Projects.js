@@ -15,7 +15,7 @@ import logoJavaScript from "../images/javascript.svg";
 const fontStylesTitre = {
   fontFamily: "Cabin, sans-serif",
   fontWeight: "bold",
-  fontSize: "4rem",
+  fontSize: "3.5rem",
   letterSpacing: "-0.05em",
   color: "#00FF00",
 };
@@ -34,8 +34,6 @@ const fontStylesDescr = {
   letterSpacing: "-0.05em",
   color: "black",
 };
-
-
 
 export default function Projects() {
   const renderSkill = (logo, name) => (
@@ -64,15 +62,15 @@ export default function Projects() {
           {projectName}
         </p>
         <span
-          className="text-center md:text-left block"
+          className="text-center md:text-left text-base md:text-1rem block"
           style={fontStylesDescr}
         >
           {projectDescription}
           <br />
           <a href={projectLink} target="_blank" rel="noopener noreferrer">
-          <button className="bg-green-500 hover:bg-green-700 text-black font-bold py-2 px-4 rounded mt-4">
-            Lien vers le projet
-          </button>
+            <button className="bg-green-500 hover:bg-green-700 text-black font-bold py-2 px-4 rounded mt-4">
+              Lien vers le projet
+            </button>
           </a>
         </span>
       </div>
@@ -80,9 +78,10 @@ export default function Projects() {
   );
 
   return (
-    <div className="flex flex-col" >
-      <div id="competences"
-        className="text-center  font-bold tracking-tight sm:text-4xl md:text-6xl lg:text-8xl py-20"
+    <div className="flex flex-col">
+      <div
+        id="competences"
+        className="text-center  font-bold tracking-tight  sm:text-4xl md:text-6xl lg:text-8xl py-20"
         style={fontStylesTitre}
       >
         Mes compétences
@@ -96,14 +95,19 @@ export default function Projects() {
         {renderSkill(logoJavaScript, "JavaScript")}
       </div>
       <div className="text-center mt-4">
-  <a href="https://miro.com/app/board/uXjVMv_eRkw=/" target="_blank" rel="noopener noreferrer">
-    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-      Ma carte mentale
-    </button>
-  </a>
-</div>
-      <div id="projets"
-        className="text-center font-bold tracking-tight sm:text-4xl md:text-6xl lg:text-8xl py-20"
+        <a
+          href="https://miro.com/app/board/uXjVMv_eRkw=/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Ma carte mentale
+          </button>
+        </a>
+      </div>
+      <div
+        id="projets"
+        className="text-center font-bold tracking-tight  sm:text-4xl md:text-6xl lg:text-8xl py-20"
         style={fontStylesTitre}
       >
         Mes projets

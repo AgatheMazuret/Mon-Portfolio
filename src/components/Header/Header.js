@@ -17,18 +17,9 @@ export default function Navbar() {
     <Disclosure as="nav" className="bg-black">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="flex items-center justify-between h-16">
               <div className="flex items-center">
-                <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-10 w-10 rounded-full bg-black">
-                    <img
-                      className="h-8 w-8 rounded-full "
-                      src="https://downloadwap.com/thumbs2/wallpapers/p2ls/2019/abstract/45/f435d39a13506800.jpg"
-                      alt="Profile"
-                    />
-                  </div>
-                  </div>
                 <div className="sm:ml-6 sm:block">
                   <div className="flex "> 
                     {navigation.map((item) => (
