@@ -17,13 +17,13 @@ const imageStyles = {
 export default function Description() {
   return (
     <div id="accueil" className="bg-black px-6 py-24 sm:py-32 lg:px-8">
-      <div className="mx-10 max-w-6xl text-center lg:flex lg:items-center lg:justify-center">
+      <div className="mx-20  max-w-6xl text-center lg:flex lg:items-center lg:justify-center">
         <img src={imageProfile} alt="Profile" style={imageStyles} />
-        <div className="mt-4 lg:mt-0">
+        <div className="mt-4 lg:mt-0 ">
           <h1 className="text-4xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl" style={fontStylesTitle}>
             Agathe Mazuret
           </h1>
-          <p className="mt-6 text-lg leading-8 text-white">
+          <p className="mt-6  text-lg leading-8 text-white">
             Après avoir exploré le monde de la mode à travers mes études, j'ai rapidement réalisé que ma véritable passion résidait ailleurs.
             {" "}
             J'ai choisi de me reconvertir dans le développement web, une décision guidée par mon désir profond de créer, d'innover et de contribuer à l'univers numérique en constante évolution.
