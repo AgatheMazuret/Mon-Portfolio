@@ -100,7 +100,7 @@ export default function Projects() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          <button className="bg-green-500 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded">
             Ma carte mentale
           </button>
         </a>
