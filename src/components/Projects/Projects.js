@@ -17,14 +17,14 @@ const fontStylesTitre = {
   fontWeight: "bold",
   fontSize: "3.5rem",
   letterSpacing: "-0.05em",
-  color: "#00FF00",
+  color: "black",
 };
 const fontStyles = {
   fontFamily: "Cabin, sans-serif",
   fontWeight: "bold",
   fontSize: "2rem",
   letterSpacing: "-0.05em",
-  color: "#00FF00",
+  color: "black",
 };
 
 const fontStylesDescr = {
@@ -32,7 +32,7 @@ const fontStylesDescr = {
   fontSize: "1.5rem",
   fontWeight: "normal",
   letterSpacing: "-0.05em",
-  color: "black",
+  color: "#606060",
 };
 
 export default function Projects() {

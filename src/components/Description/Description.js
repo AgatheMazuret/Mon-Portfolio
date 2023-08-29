@@ -20,9 +20,9 @@ export default function Description() {
       <div className="mx-10 max-w-6xl text-center lg:flex lg:items-center lg:justify-center">
         <img src={imageProfile} alt="Profile" style={{ ...imageStyles, marginLeft: '10' }} />
         <div className="mt-4 lg:mt-0">
-          <h2 className="text-4xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl" style={fontStylesTitle}>
+          <h1 className="text-4xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl" style={fontStylesTitle}>
             Agathe Mazuret
-          </h2>
+          </h1>
           <p className="mt-6 text-lg leading-8 text-white">
             Après avoir exploré le monde de la mode à travers mes études, j'ai rapidement réalisé que ma véritable passion résidait ailleurs.
             {" "}
