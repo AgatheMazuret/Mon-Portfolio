@@ -58,9 +58,9 @@ export default function Projects() {
         />
       </div>
       <div className="md:w-2/3 lg:w-3/4 ml-4 md:ml-8 mt-4 md:mt-0">
-        <p className="text-center md:text-left " style={fontStyles}>
+        <h2 className="text-center md:text-left " style={fontStyles}>
           {projectName}
-        </p>
+        </h2>
         <span
           className="text-center md:text-left text-base md:text-1rem block"
           style={fontStylesDescr}
