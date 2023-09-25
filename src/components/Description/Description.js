@@ -23,7 +23,7 @@ export default function Description() {
           <h1 className="text-4xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl" style={fontStylesTitle}>
             Agathe Mazuret
           </h1>
-          <p className="mt-6 text-sm md:text-base lg:text-lg leading-7 text-white">
+          <p className="mt-10 text-sm md:text-base lg:text-lg leading-7 text-white lg:ml-20">
   Après avoir exploré le monde de la mode à travers mes études, j'ai rapidement réalisé que ma véritable passion résidait ailleurs.
   {" "}
   J'ai choisi de me reconvertir dans le développement web en suivant une formation developpeur wev avec Openclassrooms, une décision guidée par mon désir profond de créer, d'innover et de contribuer à l'univers numérique en constante évolution.

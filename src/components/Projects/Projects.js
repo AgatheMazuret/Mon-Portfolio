@@ -68,7 +68,7 @@ export default function Projects() {
           {projectDescription}
           <br />
           <a href={projectLink} target="_blank" rel="noopener noreferrer">
-            <button className="bg-green-500 hover:bg-green-700 text-black font-bold py-2 px-4 rounded mt-4">
+            <button className="bg-green-500 hover:bg-green-600 text-black font-bold py-2 px-4 rounded mt-4">
               Lien vers le projet
             </button>
           </a>
@@ -100,7 +100,7 @@ export default function Projects() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="bg-green-500 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded">
+          <button className="bg-green-500 hover:bg-green-600 text-black font-bold py-2 px-4 rounded">
             Ma carte mentale
           </button>
         </a>
