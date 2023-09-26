@@ -34,8 +34,8 @@ export default function Navbar() {
                         className={classNames(
                           item.current
                             ? "bg-gray-900 text-white"
-                            : "text-gray-300 hover:bg-green-fluorescent hover:text-black",
-                          "rounded-md px-3 py-2 text-sm font-medium"
+                            : "text-pink-300 hover:text-pink-400",
+                          "rounded-md px-3 py-2 text-2xl font-medium"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >

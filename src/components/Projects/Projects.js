@@ -19,13 +19,14 @@ const fontStylesTitre = {
   background: "rgb(255, 169, 249)",
   background: "linear-gradient(90deg, rgba(255, 169, 249, 1) 39%, rgba(255, 247, 173, 1) 62%)",
   borderRadius: "20px",
+  color:"white"
 };
 const fontStyles = {
   fontFamily: "Cabin, sans-serif",
   fontWeight: "bold",
   fontSize: "2rem",
   letterSpacing: "-0.05em",
-  color: "black",
+  color: "pink",
 };
 
 const fontStylesDescr = {
@@ -69,7 +70,7 @@ export default function Projects() {
           {projectDescription}
           <br />
           <a href={projectLink} target="_blank" rel="noopener noreferrer">
-            <button className="bg-yellow-300 hover:bg-pink-300 text-black font-bold py-2 px-4 rounded mt-4">
+            <button className="bg-yellow-300 hover:bg-pink-300 text-white font-bold py-2 px-4 rounded mt-4">
               Lien vers le projet
             </button>
           </a>
@@ -101,7 +102,7 @@ export default function Projects() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="bg-yellow-300 hover:bg-pink-300 text-black font-bold py-2 px-4 rounded">
+          <button className="bg-yellow-300 hover:bg-pink-300 text-white font-bold py-2 px-4 rounded">
   Lien vers le projet
             Ma carte mentale
           </button>
