@@ -4,7 +4,6 @@ import Project2 from "../images/Project2.png";
 import Project3 from "../images/Project3.png";
 import Project4 from "../images/Project4.png";
 import Project5 from "../images/Project5.png";
-import Bandeau from "../images/Bandeau.png";
 import logoReact from "../images/reactJS.svg";
 import logoCSS from "../images/css.svg";
 import logoHTML from "../images/html5.svg";
@@ -17,7 +16,9 @@ const fontStylesTitre = {
   fontWeight: "bold",
   fontSize: "3.5rem",
   letterSpacing: "-0.05em",
-  color: "black",
+  background: "rgb(255, 169, 249)",
+  background: "linear-gradient(90deg, rgba(255, 169, 249, 1) 39%, rgba(255, 247, 173, 1) 62%)",
+  borderRadius: "40px",
 };
 const fontStyles = {
   fontFamily: "Cabin, sans-serif",
@@ -68,7 +69,7 @@ export default function Projects() {
           {projectDescription}
           <br />
           <a href={projectLink} target="_blank" rel="noopener noreferrer">
-            <button className="bg-green-500 hover:bg-green-600 text-black font-bold py-2 px-4 rounded mt-4">
+            <button className="bg-yellow-300 hover:bg-pink-300 text-black font-bold py-2 px-4 rounded mt-4">
               Lien vers le projet
             </button>
           </a>
@@ -86,7 +87,7 @@ export default function Projects() {
       >
         Mes compétences
       </div>
-      <div className="flex flex-wrap justify-center items-center mb-10">
+      <div className="flex flex-wrap justify-center items-center mt-10 mb-10">
         {renderSkill(logoReact, "React JS")}
         {renderSkill(logoHTML, "HTML5")}
         {renderSkill(logoCSS, "CSS")}
@@ -94,13 +95,14 @@ export default function Projects() {
         {renderSkill(logoMongoDb, "MongoDB")}
         {renderSkill(logoJavaScript, "JavaScript")}
       </div>
-      <div className="text-center mt-4">
+      <div className="text-center mt-4 mb-10">
         <a
           href="https://miro.com/app/board/uXjVMv_eRkw=/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="bg-green-500 hover:bg-green-600 text-black font-bold py-2 px-4 rounded">
+          <button className="bg-yellow-300 hover:bg-pink-300 text-black font-bold py-2 px-4 rounded">
+  Lien vers le projet
             Ma carte mentale
           </button>
         </a>
@@ -118,35 +120,35 @@ export default function Projects() {
         "Développement du back-end d'un site de notation de livres. Mise en place d'un système de notation de livre, de création, modification et suppression de fiche sur des livres. Création d'un système d'authentification et de création de compte sécurisé et utilisation de SCSS. L'entièreté du projet a été un défi pour moi, ce sont les cours de la plateforme Openclassrooms qui m'ont le plus aider avec les conseils de mon mentor. J'ai beaucoup aimé utiliser le SCSS.(Soutenance Validée le 25 août 2023 )",
         "https://github.com/AgatheMazuret/Book-Notation"
       )}
-      <img src={Bandeau} alt="Project Separator" className="h-15" />
+      <hr style={{ borderWidth: "3px" }} /> {/* Ligne de séparation plus épaisse */}
       {renderProject(
         Project4,
         "Projet Kasa",
         "Création d'une application web de location immobilière avec React. Ma plus grosse difficulté pour ce projet ont été les props et l'apprentissage de react. En parcourant internet et les cours j'ai pu comprendre les props et react. (Soutenance Validée le 2 août 2023 )",
         "https://kasa-rcsnn48hc-aagathemazuret-gmailcom.vercel.app"
       )}
-      <img src={Bandeau} alt="Project Separator" className="h-15" />
+      <hr style={{ borderWidth: "3px" }} /> {/* Ligne de séparation plus épaisse */}
       {renderProject(
         Project3,
         "Projet Nina Carducci",
         "Débuggage et optimisation du site de la photographe Nina Carducci. Le plus difficile pour moi a été de débugguer le carrousel, j'ai réussi grâce à une vidéo youtube. (Soutenance Validée le 19 juin 2023 ) ",
         "https://agathemazuret.github.io/NinaCarducci/"
       )}
-      <img src={Bandeau} alt="Project Separator" className="h-15" />
+      <hr style={{ borderWidth: "3px" }} /> {/* Ligne de séparation plus épaisse */}
       {renderProject(
         Project2,
         "Projet Sophie Bluel",
         "Création d'une page web dynamique avec JavaScript. Ma plus grosse difficulté a été de manipuler le DOM mais grâce aux cours et à des vidéos youtube j'ai pu venir à bout du projet. (Soutenance Validée le 19 mai 2023 )",
         "https://github.com/AgatheMazuret/SophieBluel"
       )}
-      <img src={Bandeau} alt="Project Separator" className="h-15" />
+  <hr style={{ borderWidth: "3px" }} /> {/* Ligne de séparation plus épaisse */}
       {renderProject(
         Project1,
         "Projet Booki ",
         "Création d'une page d'accueil d'une agence de voyage avec HTML & CSS. Ce qui a été le plus difficile dans ce 1er projet c'est qu'il fallait qu'il soit responsive. J'ai pu résoudre ces lacunes avec les cours fournis par la plateforme Openclassrooms, des vidéos youtubes et mdn Web Doc. (Soutenance Validée le 15 février 2023 )",
         "https://agathemazuret.github.io/Booki/"
       )}
-      <img src={Bandeau} alt="Project Separator" className="h-15" />
+      <hr style={{ borderWidth: "3px" }} /> {/* Ligne de séparation plus épaisse */}
     </div>
   );
 }

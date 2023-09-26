@@ -13,8 +13,13 @@ function classNames(...classes) {
 }
 
 export default function Navbar() {
+  const navBackgroundStyles = {
+    background: "rgb(255, 247, 173)",
+    background: "linear-gradient(90deg, rgba(255, 247, 173, 1) 39%, rgba(255, 169, 249, 1) 62%)",
+    borderRadius: "40px",
+  };
   return (
-    <Disclosure as="nav" className="bg-black">
+    <Disclosure as="nav" style={navBackgroundStyles} className="bg-black">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
