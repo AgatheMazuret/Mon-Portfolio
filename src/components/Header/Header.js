@@ -16,13 +16,13 @@ export default function Navbar() {
   const navBackgroundStyles = {
     background: "rgb(255, 247, 173)",
     background: "linear-gradient(90deg, rgba(255, 247, 173, 1) 39%, rgba(255, 169, 249, 1) 62%)",
-    borderRadius: "40px",
+    borderRadius: "20px",
   };
   return (
     <Disclosure as="nav" style={navBackgroundStyles} className="bg-black">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-9xl sm:px-6 lg:px-8">
             <div className="flex items-center justify-between h-16">
               <div className="flex items-center">
                 <div className="sm:ml-6 sm:block">

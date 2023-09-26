@@ -2,7 +2,7 @@ import React from "react";
 import imageProfile from "../images/Me.jpg";
 
 const fontStylesTitle = {
-  background: "linear-gradient(90deg, rgba(255, 247, 173, 1) 19%, rgba(255, 169, 249, 1) 92%)",
+  background: "linear-gradient(90deg, rgba(255, 247, 173, 1) 19%, rgba(255, 169, 249, 1) 82%)",
   WebkitBackgroundClip: "text",
   WebkitTextFillColor: "transparent", // Pour rendre le texte transparent
 };
@@ -10,7 +10,7 @@ const fontStylesTitle = {
 const imageStyles = {
   width: "360px",
   height: "360px",
-  borderRadius: "10px",
+  borderRadius: "20px",
   objectFit: "cover",
 };
 
@@ -23,7 +23,7 @@ export default function Description() {
       <div className="max-w-6xl mx-auto lg:flex lg:items-center">
         <div className="text-center lg:text-left ml-auto">
           <h1
-            className="text-4xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl"
+            className="text-4xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl pb-10"
             style={fontStylesTitle}
           >
             Agathe Mazuret

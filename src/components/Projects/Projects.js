@@ -14,11 +14,11 @@ import logoJavaScript from "../images/javascript.svg";
 const fontStylesTitre = {
   fontFamily: "Cabin, sans-serif",
   fontWeight: "bold",
-  fontSize: "3.5rem",
+  fontSize: "3rem",
   letterSpacing: "-0.05em",
   background: "rgb(255, 169, 249)",
   background: "linear-gradient(90deg, rgba(255, 169, 249, 1) 39%, rgba(255, 247, 173, 1) 62%)",
-  borderRadius: "40px",
+  borderRadius: "20px",
 };
 const fontStyles = {
   fontFamily: "Cabin, sans-serif",
@@ -82,7 +82,7 @@ export default function Projects() {
     <div className="flex flex-col">
       <div
         id="competences"
-        className="text-center  font-bold tracking-tight  sm:text-4xl md:text-6xl lg:text-8xl py-20"
+        className="text-center  font-bold tracking-tight  sm:text-4xl md:text-6xl lg:text-8xl py-5"
         style={fontStylesTitre}
       >
         Mes compétences
@@ -109,7 +109,7 @@ export default function Projects() {
       </div>
       <div
         id="projets"
-        className="text-center font-bold tracking-tight  sm:text-4xl md:text-6xl lg:text-8xl py-20"
+        className="text-center font-bold tracking-tight  sm:text-4xl md:text-6xl lg:text-8xl py-5"
         style={fontStylesTitre}
       >
         Mes projets
@@ -120,35 +120,35 @@ export default function Projects() {
         "Développement du back-end d'un site de notation de livres. Mise en place d'un système de notation de livre, de création, modification et suppression de fiche sur des livres. Création d'un système d'authentification et de création de compte sécurisé et utilisation de SCSS. L'entièreté du projet a été un défi pour moi, ce sont les cours de la plateforme Openclassrooms qui m'ont le plus aider avec les conseils de mon mentor. J'ai beaucoup aimé utiliser le SCSS.(Soutenance Validée le 25 août 2023 )",
         "https://github.com/AgatheMazuret/Book-Notation"
       )}
-      <hr style={{ borderWidth: "3px" }} /> {/* Ligne de séparation plus épaisse */}
+      <hr style={{ borderWidth: "3px", borderColor: "#ffa9f9" }} /> {/* Ligne de séparation plus épaisse */}
       {renderProject(
         Project4,
         "Projet Kasa",
         "Création d'une application web de location immobilière avec React. Ma plus grosse difficulté pour ce projet ont été les props et l'apprentissage de react. En parcourant internet et les cours j'ai pu comprendre les props et react. (Soutenance Validée le 2 août 2023 )",
         "https://kasa-rcsnn48hc-aagathemazuret-gmailcom.vercel.app"
       )}
-      <hr style={{ borderWidth: "3px" }} /> {/* Ligne de séparation plus épaisse */}
+      <hr style={{ borderWidth: "3px", borderColor: "#ffa9f9" }} /> {/* Ligne de séparation plus épaisse */}
       {renderProject(
         Project3,
         "Projet Nina Carducci",
         "Débuggage et optimisation du site de la photographe Nina Carducci. Le plus difficile pour moi a été de débugguer le carrousel, j'ai réussi grâce à une vidéo youtube. (Soutenance Validée le 19 juin 2023 ) ",
         "https://agathemazuret.github.io/NinaCarducci/"
       )}
-      <hr style={{ borderWidth: "3px" }} /> {/* Ligne de séparation plus épaisse */}
+      <hr style={{ borderWidth: "3px", borderColor: "#ffa9f9" }} /> {/* Ligne de séparation plus épaisse */}
       {renderProject(
         Project2,
         "Projet Sophie Bluel",
         "Création d'une page web dynamique avec JavaScript. Ma plus grosse difficulté a été de manipuler le DOM mais grâce aux cours et à des vidéos youtube j'ai pu venir à bout du projet. (Soutenance Validée le 19 mai 2023 )",
         "https://github.com/AgatheMazuret/SophieBluel"
       )}
-  <hr style={{ borderWidth: "3px" }} /> {/* Ligne de séparation plus épaisse */}
+  <hr style={{ borderWidth: "3px", borderColor: "#ffa9f9" }} /> {/* Ligne de séparation plus épaisse */}
       {renderProject(
         Project1,
         "Projet Booki ",
         "Création d'une page d'accueil d'une agence de voyage avec HTML & CSS. Ce qui a été le plus difficile dans ce 1er projet c'est qu'il fallait qu'il soit responsive. J'ai pu résoudre ces lacunes avec les cours fournis par la plateforme Openclassrooms, des vidéos youtubes et mdn Web Doc. (Soutenance Validée le 15 février 2023 )",
         "https://agathemazuret.github.io/Booki/"
       )}
-      <hr style={{ borderWidth: "3px" }} /> {/* Ligne de séparation plus épaisse */}
+      <hr style={{ borderWidth: "3px", borderColor: "#ffa9f9" }} /> {/* Ligne de séparation plus épaisse */}
     </div>
   );
 }
