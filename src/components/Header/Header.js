@@ -19,7 +19,7 @@ export default function Navbar() {
     borderRadius: "20px",
   };
   return (
-    <Disclosure as="nav" style={navBackgroundStyles} className="bg-black">
+    <Disclosure as="nav" style={navBackgroundStyles} className="bg-black w-2/3 mx-auto">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-9xl sm:px-6 lg:px-8">
