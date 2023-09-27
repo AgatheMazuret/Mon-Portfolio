@@ -1,3 +1,10 @@
+const fontStyles = {
+  fontFamily: "Inclusive Sans",
+  fontWeight: "bold",
+  fontSize: "1.2rem",
+  color: "gray",
+};
+
 const navigation = [
   {
     name: "Twitter",
@@ -61,7 +68,7 @@ export default function Example() {
           ))}
         </div>
         <div className="mt-8 md:order-1 md:mt-0">
-          <p className="text-center text-base md:text-xl leading-5 text-gray-500">
+          <p className="text-center text-base md:text-xl leading-5 " style={fontStyles}>
             Contact :{" "}
             <a href="mailto:agathe.mazuret@gmail.com">
               agathe.mazuret@gmail.com

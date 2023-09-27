@@ -17,9 +17,10 @@ export default function Navbar() {
     background: "rgb(255, 247, 173)",
     background: "linear-gradient(90deg, rgba(255, 247, 173, 1) 39%, rgba(255, 169, 249, 1) 62%)",
     borderRadius: "20px",
+    fontFamily: "Inclusive Sans",
   };
   return (
-    <Disclosure as="nav" style={navBackgroundStyles} className="bg-black w-2/3 mx-auto">
+    <Disclosure as="nav" style={navBackgroundStyles} className="bg-black w-5/6 mx-auto">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-9xl sm:px-6 lg:px-8">

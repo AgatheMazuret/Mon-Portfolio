@@ -5,6 +5,11 @@ const fontStylesTitle = {
   background: "linear-gradient(90deg, rgba(255, 247, 173, 1) 19%, rgba(255, 169, 249, 1) 82%)",
   WebkitBackgroundClip: "text",
   WebkitTextFillColor: "transparent", // Pour rendre le texte transparent
+  fontFamily: "Inclusive Sans",
+};
+
+const fontStyles = {
+  fontFamily: "Inclusive Sans",
 };
 
 const imageStyles = {
@@ -28,7 +33,7 @@ export default function Description() {
           >
             Agathe Mazuret
           </h1>
-          <p className="mt-5 text-sm md:text-base lg:text-lg leading-7 text-gray-500 lg:mt-10">
+          <p className="mt-5 text-sm md:text-base lg:text-lg leading-7 text-gray-500 lg:mt-10"style={fontStyles}>
             Après avoir exploré le monde de la mode à travers mes études, j'ai
             rapidement réalisé que ma véritable passion résidait ailleurs. J'ai
             choisi de me reconvertir dans le développement web en suivant une
