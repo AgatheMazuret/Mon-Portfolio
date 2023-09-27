@@ -61,6 +61,7 @@ export default function Projects() {
           src={projectImage}
           alt={projectName}
           className="w-full rounded-md"
+          style={{ borderRadius: "30px",border: "2px solid pink"  }}
         />
       </div>
       <div className="md:w-2/3 lg:w-3/4 ml-4 md:ml-8 mt-4 md:mt-0">
